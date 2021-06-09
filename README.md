@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/mankokolya/taxi-service.svg?branch=master)](https://travis-ci.com/mankokolya/taxi-service)
 # Taxi-service app
 __________________
 
