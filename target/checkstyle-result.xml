@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\controller\car\AddCarController.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\controller\car\AddDriverToCarController.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\controller\car\DeleteCarController.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\controller\car\GetAllCarsController.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\controller\car\GetCurrentCarsController.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\controller\driver\AddDriverController.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\controller\driver\DeleteDriverController.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\controller\driver\GetAllDriversController.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\controller\IndexController.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\controller\LoginController.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\controller\LogoutController.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\controller\manufacturer\AddManufacturerController.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\controller\manufacturer\DeleteManufacturerController.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\controller\manufacturer\GetAllManufacturersController.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\dao\CarDao.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\dao\CarDaoImpl.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\dao\DriverDao.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\dao\DriverDaoImpl.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\dao\GenericDao.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\dao\ManufacturerDao.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\dao\ManufacturerDaoImpl.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\exception\AuthenticationException.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\exception\DataProcessingException.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\lib\Dao.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\lib\exception\DataProcessingException.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\lib\Inject.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\lib\Injector.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\lib\Service.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\model\Car.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\model\Driver.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\model\Manufacturer.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\service\AuthenticationService.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\service\CarService.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\service\DriverService.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\service\GenericService.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\service\impl\AuthenticationServiceImpl.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\service\impl\CarServiceImpl.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\service\impl\DriverServiceImpl.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\service\impl\ManufacturerServiceImpl.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\service\ManufacturerService.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\util\ConnectionUtil.java">
+</file>
+<file name="D:\MateAcademy\readyProject\taxi-service\src\main\java\mate\web\filter\AuthenticationFilter.java">
+</file>
+</checkstyle>

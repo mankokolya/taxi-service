@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="jv-web-security-1.0-SNAPSHOT.war">
+    <root id="archive" name="taxi-service.war">
       <element id="artifact" artifact-name="taxi-service:war exploded" />
     </root>
   </artifact>
