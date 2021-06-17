@@ -18,7 +18,6 @@ import mate.util.ConnectionUtil;
 
 @Dao
 public class CarDaoImpl implements CarDao {
-    private static final int ZERO_PLACEHOLDER = 0;
     private static final int PARAMETER_SHIFT = 2;
 
     @Override
@@ -110,7 +109,7 @@ public class CarDaoImpl implements CarDao {
         } catch (SQLException e) {
             throw new DataProcessingException("Can't update car " + car, e);
         }
-        deleteAllDriversExceptList(car);
+        deleteAllDriversFromCar(car);
         insertAllDrivers(car);
         return car;
     }
@@ -181,25 +180,15 @@ public class CarDaoImpl implements CarDao {
         }
     }
 
-    private void deleteAllDriversExceptList(Car car) {
-        Long carId = car.getId();
-        List<Driver> exceptions = car.getDrivers();
-        int size = exceptions.size();
-        String insertQuery = "DELETE FROM cars_drivers WHERE car_id = ? "
-                + "AND NOT driver_id IN ("
-                + ZERO_PLACEHOLDER + ", ?".repeat(size)
-                + ");";
+    private void deleteAllDriversFromCar(Car car) {
+        String insertQuery = "DELETE FROM cars_drivers WHERE car_id = ?";
         try (Connection connection = ConnectionUtil.getConnection();
                 PreparedStatement preparedStatement =
                         connection.prepareStatement(insertQuery)) {
-            preparedStatement.setLong(1, carId);
-            for (int i = 0; i < size; i++) {
-                Driver driver = exceptions.get(i);
-                preparedStatement.setLong((i) + PARAMETER_SHIFT, driver.getId());
-            }
+            preparedStatement.setLong(1, car.getId());
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
-            throw new DataProcessingException("Can't delete drivers " + exceptions, e);
+            throw new DataProcessingException("Can't delete drivers " + car.getDrivers(), e);
         }
     }
 
